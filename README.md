@@ -26,7 +26,7 @@ $ python3 skamkey.py
 |___/_\_\__,_|_|_|_|  _|\_\___| \_, | 
                                  |__/  
 Welcome to SkamKey,
-Made by Out-Shit https://github.com/Out-Shit
+Made by Out-Shit https://out-shit.github.io/SkamKey
 
 This is a program who install KeyLogger in sites
 All files in "Phish" folder have to be host on a server.
