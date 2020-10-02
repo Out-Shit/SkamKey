@@ -9,7 +9,7 @@ How to install and run
 $ apt-get install && apt-get upgrade
 $ apt-get install python3
 $ apt-get install git
-$ git clone https://out-shit.github.io/SkamKey
+$ git clone https://github.com/Out-Shit/SkamKey
 $ cd SkamKey
 $ chmod 777 *
 $ python3 skamkey.py
