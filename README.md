@@ -5,8 +5,6 @@
 ***By Outshit***
 ------
 How to install and run
-----
-
 ```
 $ apt-get install && apt-get upgrade
 $ apt-get install python3
