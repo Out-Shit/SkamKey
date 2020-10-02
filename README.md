@@ -4,21 +4,16 @@ SkamKey
 
 **By Outshit**
 =========
-How to install
+How to install and run
 ----
 
 ```
 $ apt-get install && apt-get upgrade
 $ apt-get install python3
 $ apt-get install git
-$ git clone https://github.com/Out-Shit/SkamKey
-$ chmod 777 *
-```
-How to run
-----
-
-```
+$ git clone https://out-shit.github.io/SkamKey
 $ cd SkamKey
+$ chmod 777 *
 $ python3 skamkey.py
 
  (                         )           
